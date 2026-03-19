@@ -1,0 +1,12 @@
+{
+  "name": "upbit-monitor",
+  "version": "1.0.0",
+  "description": "Upbit coin listing monitor with Telegram notifications",
+  "main": "upbit-monitor.js",
+  "scripts": {
+    "start": "node upbit-monitor.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
