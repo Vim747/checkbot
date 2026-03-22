@@ -16,8 +16,17 @@ const http = require("http");
 
 // ─── CONFIGURATION (from env vars) ──────────────────────────────
 
+const DEFAULT_WATCH_LIST = [
+  // High market cap
+  "FET","GALA","ORDI","TON","FLOKI","LTC","DYDX","MKR","LDO","EIGEN",
+  "AR","STRK","WIF","PI","NOT","DOGS","PNUT","TURBO","NEIRO","FLOW",
+  // Mid cap / trending
+  "MORPHO","KAIA","AIXBT","PEOPLE","OM","CETUS","RON","METIS","MEME",
+  "CORE","CFX","PIXEL","SUSHI","LRC","HMSTR","CATI","GOAT","BOME",
+].join(",");
+ 
 const CONFIG = {
-  watchList: (process.env.WATCH_LIST || "FET,GALA,ORDI,MANTA")
+  watchList: (process.env.WATCH_LIST || DEFAULT_WATCH_LIST)
     .split(",")
     .map((s) => s.trim().toUpperCase())
     .filter(Boolean),
