@@ -23,17 +23,16 @@ const DEFAULT_WATCH_LIST = [
   // Mid cap / trending
   "MORPHO","AIXBT","PEOPLE","CETUS","RON","METIS",
   "CORE","CFX","PIXEL","SUSHI","HMSTR","CATI","GOAT","BOME",
-  "ACA","ACE","ACH","AEVO","ALCX","ALPHA","ARG","BADGER","BAL",
-  "BANANA","BAND","BICO","BNB","CLV","CSPR","CTXC","CVX","CXT",
-  "DAO","DEP","DUCK","ERN","ETHW","FLM","FLR","FORTH","FXS",
-  "GEAR","GHST","GODS","GOG","ICE","ILV","JOE","KDA","KSM",
-  "LAT","LEO","LOOKS","LQTY","LUNA","LUNC","MDT","MENGO","MERL",
-  "MLN","MOVR","NAVX","NC","NULS","OAS","OL","OMI","ONE",
+  "ACA","ACE","ACH","AEVO","ALCX","BADGER","BAL",
+  "BANANA","BAND","BICO","CLV","CSPR","CVX",
+  "DAO","DEP","DUCK","ERN","ETHW","FLM","FORTH","FXS",
+  "GEAR","GHST","GODS","GOG","ILV","JOE","KDA","KSM",
+  "LAT","LOOKS","LQTY","MDT","MENGO","MERL",
+  "MOVR","NAVX","NC","NULS","OL","OMI","ONE",
   "PARTI","PERP","PHA","PRCL","POR","PSTAKE","RACA","RADAR","RIO",
   "RON","RPL","RSS3","S","SATS","SD","SKL","SLP","SSV",
   "STETH","SWEAT","SWFTC","TNSR","TRA","TRB","ULTI","UMA","UXLINK",
-  "VELO","VELODROME","VENOM","VRA","WBTC","WIN","WOO","XCH","XNO",
-  "YFI","ZBCN","ZENT","ZEUS","ZKJ",
+  "VELO","VELODROME","VENOM","VRA","WBTC","WOO","XCH","XNO","ZBCN","ZENT","ZEUS","ZKJ",
 ].join(",");
  
 const CONFIG = {
