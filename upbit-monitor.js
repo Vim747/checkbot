@@ -18,11 +18,11 @@ const http = require("http");
 
 const DEFAULT_WATCH_LIST = [
   // High market cap
-  "FET","GALA","ORDI","TON","FLOKI","LTC","DYDX","MKR","LDO","EIGEN",
-  "AR","STRK","WIF","PI","NOT","DOGS","PNUT","TURBO","NEIRO","FLOW",
+  "FET","GALA","ORDI","FLOKI","DYDX","LDO","EIGEN",
+  "AR","WIF","NOT","DOGS","PNUT","NEIRO",
   // Mid cap / trending
-  "MORPHO","KAIA","AIXBT","PEOPLE","OM","CETUS","RON","METIS","MEME",
-  "CORE","CFX","PIXEL","SUSHI","LRC","HMSTR","CATI","GOAT","BOME",
+  "MORPHO","AIXBT","PEOPLE","CETUS","RON","METIS",
+  "CORE","CFX","PIXEL","SUSHI","HMSTR","CATI","GOAT","BOME",
 ].join(",");
  
 const CONFIG = {
