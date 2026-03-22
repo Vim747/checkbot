@@ -19,7 +19,7 @@ const http = require("http");
 const DEFAULT_WATCH_LIST = [
   // High market cap
   "FET","GALA","ORDI","FLOKI","DYDX","LDO","EIGEN",
-  "AR","WIF","NOT","DOGS","PNUT","NEIRO","MANTA"
+  "AR","WIF","NOT","DOGS","PNUT","NEIRO","MANTA",
   // Mid cap / trending
   "MORPHO","AIXBT","PEOPLE","CETUS","RON","METIS",
   "CORE","CFX","PIXEL","SUSHI","HMSTR","CATI","GOAT","BOME",
