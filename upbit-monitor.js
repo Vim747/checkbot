@@ -19,10 +19,21 @@ const http = require("http");
 const DEFAULT_WATCH_LIST = [
   // High market cap
   "FET","GALA","ORDI","FLOKI","DYDX","LDO","EIGEN",
-  "AR","WIF","NOT","DOGS","PNUT","NEIRO",
+  "AR","WIF","NOT","DOGS","PNUT","NEIRO","MANTA"
   // Mid cap / trending
   "MORPHO","AIXBT","PEOPLE","CETUS","RON","METIS",
   "CORE","CFX","PIXEL","SUSHI","HMSTR","CATI","GOAT","BOME",
+  "ACA","ACE","ACH","AEVO","ALCX","ALPHA","ARG","BADGER","BAL",
+  "BANANA","BAND","BICO","BNB","CLV","CSPR","CTXC","CVX","CXT",
+  "DAO","DEP","DUCK","ERN","ETHW","FLM","FLR","FORTH","FXS",
+  "GEAR","GHST","GODS","GOG","ICE","ILV","JOE","KDA","KSM",
+  "LAT","LEO","LOOKS","LQTY","LUNA","LUNC","MDT","MENGO","MERL",
+  "MLN","MOVR","NAVX","NC","NULS","OAS","OL","OMI","ONE",
+  "PARTI","PERP","PHA","PRCL","POR","PSTAKE","RACA","RADAR","RIO",
+  "RON","RPL","RSS3","S","SATS","SD","SKL","SLP","SSV",
+  "STETH","SWEAT","SWFTC","TNSR","TRA","TRB","ULTI","UMA","UXLINK",
+  "VELO","VELODROME","VENOM","VRA","WBTC","WIN","WOO","XCH","XNO",
+  "YFI","ZBCN","ZENT","ZEUS","ZKJ",
 ].join(",");
  
 const CONFIG = {
